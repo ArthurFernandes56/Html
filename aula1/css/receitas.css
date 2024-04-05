@@ -1,0 +1,109 @@
+
+body {
+    background-color: rgb(190, 193, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.menu {
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  80px;
+    border-bottom: 5px solid #3a0046;
+}
+
+.menu ul {
+    padding: 20px;
+    margin: 21px;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.menu ul li a {
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    color: rgb(255, 255, 255);
+    border: 2px solid white; 
+    transition: background-color 0.5s; 
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #874001;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.menu img {
+    max-width: 70px;
+}
+
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.main .fundo .container {
+    position: relative; 
+    width: 300px; 
+}
+
+
+.ingredientes ul  {
+    list-style: disc;
+    margin-top: 10px
+
+}
+.ingredientes h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+.preparo ol {
+list-style-type: decimal ;
+margin-top: 10px
+}
+.preparo h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+.texto .ingredientes ul li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.texto .preparo ol li{
+    font-size: 18px;
+    line-height: 1.5;
+  
+}
+
+.texto .voltar{
+    text-align: center;
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    color:black;
+    border: 2px solid black; 
+    transition: background-color 0.5s; 
+}
+
+.texto .voltar:hover {
+    border-bottom: 5px solid rgb(64, 0, 71);
+    color: rgb(0, 0, 0);
+    background-color: rgb(103, 55, 179);
+}
