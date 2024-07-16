@@ -1,0 +1,114 @@
+body{
+    background-color: yellow;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    border-bottom: 3px solid rgb(229, 212, 212);
+    display: flex;
+    align-items: center;
+    color: rgb(204, 210, 5);
+}
+
+.menu .logo{
+    padding: 5px 0px 0px 6px;
+    margin-left: 5px;
+    font-size: 50px;
+    background-color: rgb(155, 158, 94);
+    color: black;
+    border: solid 5px rgb(251, 255, 0);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    color: rgb(0, 0, 0);
+    font-family: "Zilla Slab", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+
+.menu .nome{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.home .foto{
+    text-align: center;
+    margin-top: 40px;
+}
+.home .foto h1{
+    margin-top: 20px;
+    font-size: 50px;
+    
+}
+.home .foto img{
+    height: 450px;
+    border: solid rgb(155, 158, 94) 10px;
+    border-radius: 50%;
+}
+.home .texto{
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
+    width: 700px;
+    height: 590px;
+    border: solid black 5px;
+
+    
+}
+.home .adm_titulo{
+    margin-left: 15px;
+}
+.home .texto div{
+    border-top: solid black 2px;
+    margin: 15px 0px 15px 25px;
+    
+    
+    
+}
+
+.home .texto h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+
+.home .texto h2{
+    font-family: "Roboto Slab",serif;
+    font-weight:normal;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.home .texto h3{
+    font-family: "Roboto Slab",serif;
+    font-weight:normal;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.home .texto li{
+    font-family: "Roboto Slab",serif;
+    font-weight:normal;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+    list-style: square;
+}
+
+
